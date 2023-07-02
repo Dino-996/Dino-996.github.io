@@ -1,0 +1,36 @@
+{
+  "name": "dino-996.github.io",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "test",
+    "dev": "parcel",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dino-996/Dino-996.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Davide Sabia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dino-996/Dino-996.github.io/issues"
+  },
+  "homepage": "https://github.com/Dino-996/Dino-996.github.io#readme",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "build": "^0.1.4",
+    "install": "^0.13.0",
+    "parcel": "^2.9.3",
+    "serve": "^14.2.0"
+  }
+}
