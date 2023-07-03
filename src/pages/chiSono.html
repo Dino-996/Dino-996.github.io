@@ -2,23 +2,13 @@
 <html lang="it">
 
 <head>
-    <meta name="author" content="Davide Sabia">
-    <meta name="description" content="My personal portfolio">
-    <meta name="copyright" content="Dino-996">
-    <meta name="generator" content="Visual Studio Code">
-    <meta name="robots" content="all | none | index | noindex | follow | nofollow">
-    <meta name="dc.language" content="ita" scheme="RFC1766">
-    <meta http-equiv="reply-to" content="davidesabia22@gmail.com">
-    <!--<meta http-equiv="refresh" content="60;URL=https://github.com/Dino-996">-->
-    <meta HTTP-EQUIV="keywords" content="portfolio dev software web-developer curriculum cv">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="main.js"></script>
     <style>
         .rotate {
             animation: rotate 8s infinite linear;
@@ -33,17 +23,24 @@
                 transform: rotate(360deg);
             }
         }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
     </style>
-    <title>Portfolio</title>
+    <title>Chi sono</title>
 </head>
 
 <body class="text-light bg-dark">
-
     <div style="margin-bottom: 5em;">
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom" data-bs-theme="dark">
             <div class="container-fluid">
-                <img src="assets/moon.png" class="rotate" alt="The moon" style="width: 3em;">
-                <a class="navbar-brand" href="#" type="button" onclick="scrollToTop()">Davide Sabia</a>
+                <img src="../assets/moon.png" class="rotate" alt="The moon" style="width: 3em;">
+                <a class="navbar-brand" href="../index.html" type="button" onclick="scrollToTop()">Davide Sabia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -51,34 +48,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="home" href="index.html">Home</a>
-                        <a class="nav-link" href="pages/chiSono.html">Chi sono</a>
+                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link active" aria-current="contact" href="chiSono.html">Chi sono</a>
                         <a class="nav-link" href="#">Curriculum Vitae</a>
-                        <a class="nav-link" href="pages/contatti.html">Contatti</a>
+                        <a class="nav-link" href="contatti.html">Contatti</a>
                     </div>
                 </div>
             </div>
         </nav>
     </div>
+    <div class="container text-start mt-3 mb-3">
 
-    <div class="container">
-        <h1>Title</h1>
-    </div>
-
-
-
-
+        <h1>Chi sono</h1>
 </body>
-
-<script defer>
-    "use strict"
-    function scrollToTop() {
-        window.scrollTo({
-            top: 100,
-            left: 100,
-            behavior: "smooth"
-        });
-    }
-</script>
 
 </html>
