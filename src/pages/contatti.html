@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+        <script src="https://www.google.com/recaptcha/enterprise.js?render=6Le9qO0mAAAAADrx8bWiR_xTJvDNh_UeUiRvAN_D"></script>
     <style>
         .rotate {
             animation: rotate 8s infinite linear;
@@ -30,6 +31,7 @@
                 transform: rotate(360deg);
             }
         }
+
         a {
             text-decoration: none;
         }
@@ -173,6 +175,12 @@
 
 
         <script>
+            function onClick(e) {
+                e.preventDefault();
+                grecaptcha.enterprise.ready(async () => {
+                    const token = await grecaptcha.enterprise.execute('6Le9qO0mAAAAADrx8bWiR_xTJvDNh_UeUiRvAN_D', { action: 'LOGIN' });
+                });
+            }
             (() => {
                 'use strict'
                 const forms = document.querySelectorAll('.needs-validation')
