@@ -574,12 +574,20 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"gLLPy":[function(require,module,exports) {
-//AOS (Animated on scroll library)
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+/*
+* AOS (Animated on scroll library)
+* fade-right
+* fade-left
+* flip-up
+* zoom-in-up
+*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "main", ()=>main);
 var _aos = require("aos");
 var _aosDefault = parcelHelpers.interopDefault(_aos);
 var _aosCss = require("aos/dist/aos.css");
 (0, _aosDefault.default).init();
+const main = ()=>({});
 
 },{"aos":"eRzTM","aos/dist/aos.css":"iYkXi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eRzTM":[function(require,module,exports) {
 var global = arguments[3];

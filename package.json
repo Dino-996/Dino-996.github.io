@@ -3,15 +3,26 @@
   "version": "1.0.0",
   "description": "Personal Portfolio",
   "source": "src/index.html",
+  "private": true,
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "dev": "parcel",
     "watch": "parcel watch",
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "latest"
+    "jest": "^29.5.0",
+    "parcel": "latest",
+    "autoprefixer": "^10.4.14",
+    "nodemon": "^2.0.22",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.62.1",
+    "sirv-cli": "^2.0.2",
+    "stylelint": "^15.6.0",
+    "stylelint-config-twbs-bootstrap": "^10.0.0"
   },
   "repository": {
     "type": "git",
@@ -28,8 +39,11 @@
   "homepage": "https://github.com/Dino-996/Dino-996.github.io#readme",
   "dependencies": {
     "aos": "^3.0.0-beta.6",
+    "bootstrap": "5.3.0",
+    "@popperjs/core": "^2.11.8",
     "build": "^0.1.4",
     "install": "^0.13.0",
+    "mongose": "^0.0.2-security",
     "parcel": "^2.9.3",
     "serve": "^14.2.0"
   }
