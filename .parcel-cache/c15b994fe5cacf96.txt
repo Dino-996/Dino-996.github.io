@@ -5100,12 +5100,12 @@
 88/opt/lampp/htdocs/Dino-996.github.io/node_modules/@swc/helpers/lib/_wrap_native_super.js1688323671236000000 0
 68/opt/lampp/htdocs/Dino-996.github.io/node_modules/concat-map/LICENSE1687743851605999000 0
 95/opt/lampp/htdocs/Dino-996.github.io/node_modules/stylelint-stylistic/dist/rules/color-hex-case1688323862712421814 1
-65/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages/contatti.html1688362188333943524 0
+65/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages/contatti.html1688362818839724468 0
 91/opt/lampp/htdocs/Dino-996.github.io/node_modules/caniuse-lite/data/features/wbr-element.js1688323855496000000 0
 90/opt/lampp/htdocs/Dino-996.github.io/node_modules/is-plain-object/dist/is-plain-object.mjs1688323857154999000 0
 117/opt/lampp/htdocs/Dino-996.github.io/node_modules/stylelint-scss/dist/rules/at-extend-no-missing-placeholder/index.js1688323858323999000 0
 86/opt/lampp/htdocs/Dino-996.github.io/node_modules/is-plain-object/is-plain-object.d.ts1688323857154999000 0
-59/opt/lampp/htdocs/Dino-996.github.io/dist/moon.0469fd53.png1688362188321943414 0
+59/opt/lampp/htdocs/Dino-996.github.io/dist/moon.0469fd53.png1688362818743722575 0
 73/opt/lampp/htdocs/Dino-996.github.io/node_modules/global-modules/index.js1688323857069000000 0
 73/opt/lampp/htdocs/Dino-996.github.io/node_modules/jest-message-util/build1688323678591262055 1
 65/opt/lampp/htdocs/Dino-996.github.io/node_modules/is-plain-object1688323861072411282 1
@@ -5625,7 +5625,7 @@
 92/opt/lampp/htdocs/Dino-996.github.io/node_modules/@mischnic/json-sourcemap/node_modules/.bin1688323863076424153 1
 63/opt/lampp/htdocs/Dino-996.github.io/node_modules/which/LICENSE1687906322973999000 0
 92/opt/lampp/htdocs/Dino-996.github.io/node_modules/@babel/parser/lib/plugins/jsx/index.js.map1687743847790999000 0
-63/opt/lampp/htdocs/Dino-996.github.io/dist/index.63aff760.js.map1688362188341943598 0
+63/opt/lampp/htdocs/Dino-996.github.io/dist/index.63aff760.js.map1688362818803723757 0
 91/opt/lampp/htdocs/Dino-996.github.io/node_modules/@swc/helpers/_/_ts_generator/package.json1688323671236000000 0
 82/opt/lampp/htdocs/Dino-996.github.io/node_modules/is-fullwidth-code-point/index.js1687743858121999000 0
 73/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2017/abs.js1688323855938999000 0
@@ -6256,7 +6256,7 @@
 85/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2022/GetSubstitution.js1688323855938999000 0
 76/opt/lampp/htdocs/Dino-996.github.io/node_modules/postcss/lib/stringify.d.ts1685468172687999000 0
 88/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2022/AdvanceStringIndex.js1688323855938999000 0
-61/opt/lampp/htdocs/Dino-996.github.io/dist/chiSono.d07d529e.js1688362188333943524 0
+61/opt/lampp/htdocs/Dino-996.github.io/dist/chiSono.d07d529e.js1688362818791723521 0
 81/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2022/ArrayCreate.js1688323855938999000 0
 95/opt/lampp/htdocs/Dino-996.github.io/node_modules/@babel/types/lib/validators/matchesPattern.js1687743854811000000 0
 95/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2022/IsStringWellFormedUnicode.js1688323855938999000 0
@@ -7668,7 +7668,7 @@
 79/opt/lampp/htdocs/Dino-996.github.io/node_modules/postcss-reporter/package.json1688323856783999000 0
 80/opt/lampp/htdocs/Dino-996.github.io/node_modules/json-schema-traverse/README.md1687907048257999000 0
 73/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/packager-js/src1688323678215259739 1
-52/opt/lampp/htdocs/Dino-996.github.io/dist/index.html1688362188333943524 0
+52/opt/lampp/htdocs/Dino-996.github.io/dist/index.html1688362818839724468 0
 80/opt/lampp/htdocs/Dino-996.github.io/node_modules/bootstrap/scss/_offcanvas.scss1688060327062999000 0
 98/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/packager-js/lib/ScopeHoistingPackager.js1688323666930000000 0
 84/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/packager-js/lib/helpers.js1688323666930000000 0
@@ -7805,7 +7805,7 @@
 74/opt/lampp/htdocs/Dino-996.github.io/node_modules/semver/functions/sort.js1687907037282000000 0
 99/opt/lampp/htdocs/Dino-996.github.io/node_modules/@swc/helpers/esm/_define_enumerable_properties.js1688323671236000000 0
 79/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/workers/src/Worker.js1688323669737999000 0
-41/opt/lampp/htdocs/Dino-996.github.io/dist1688362188341943598 1
+41/opt/lampp/htdocs/Dino-996.github.io/dist1688362818839724468 1
 76/opt/lampp/htdocs/Dino-996.github.io/node_modules/logform/dist/uncolorize.js1688304470926000000 0
 40/opt/lampp/htdocs/Dino-996.github.io/src1688361672522739605 1
 64/opt/lampp/htdocs/Dino-996.github.io/node_modules/has-proto/test1688323861792415906 1
@@ -8139,7 +8139,7 @@
 74/opt/lampp/htdocs/Dino-996.github.io/node_modules/normalize-range/index.js1686763094765000000 0
 72/opt/lampp/htdocs/Dino-996.github.io/node_modules/hard-rejection/license1688323858124000000 0
 91/opt/lampp/htdocs/Dino-996.github.io/node_modules/node-gyp-build-optional-packages/index.js1688323672928999000 0
-64/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages/chiSono.html1688362188289943119 0
+64/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages/chiSono.html1688362818839724468 0
 63/opt/lampp/htdocs/Dino-996.github.io/node_modules/css-tree/data1688323678523261636 1
 92/opt/lampp/htdocs/Dino-996.github.io/node_modules/caniuse-lite/data/features/css-rrggbbaa.js1688323855496000000 0
 74/opt/lampp/htdocs/Dino-996.github.io/node_modules/yaml/dist/doc/anchors.js1686763091512000000 0
@@ -8376,7 +8376,7 @@
 87/opt/lampp/htdocs/Dino-996.github.io/node_modules/@bcoe/v8-coverage/dist/lib/ascii.d.ts1687743853483999000 0
 117/opt/lampp/htdocs/Dino-996.github.io/node_modules/stylelint/node_modules/css-tree/cjs/syntax/node/GeneralEnclosed.cjs1686763095982000000 0
 80/opt/lampp/htdocs/Dino-996.github.io/node_modules/fast-deep-equal/es6/index.d.ts1687743850539000000 0
-59/opt/lampp/htdocs/Dino-996.github.io/dist/index.63aff760.js1688362188333943524 0
+59/opt/lampp/htdocs/Dino-996.github.io/dist/index.63aff760.js1688362818795723600 0
 100/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-node1688323678959264322 1
 100/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2019/IsCompatiblePropertyDescriptor.js1688323855938999000 0
 85/opt/lampp/htdocs/Dino-996.github.io/node_modules/svgo/plugins/cleanupListOfValues.js1687907048346999000 0
@@ -8689,7 +8689,7 @@
 90/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/core/test/PackagerRunner.test.js1688323664956000000 0
 78/opt/lampp/htdocs/Dino-996.github.io/node_modules/source-map/lib/quick-sort.js1687743855908999000 0
 57/opt/lampp/htdocs/Dino-996.github.io/node_modules/p-limit1688323677887257719 1
-60/opt/lampp/htdocs/Dino-996.github.io/src/pages/contatti.html1688362070105072658 0
+60/opt/lampp/htdocs/Dino-996.github.io/src/pages/contatti.html1688362818127710436 0
 75/opt/lampp/htdocs/Dino-996.github.io/node_modules/object-inspect/test/fn.js1687906332114000000 0
 70/opt/lampp/htdocs/Dino-996.github.io/node_modules/read-cache/README.md1686763094803999000 0
 109/opt/lampp/htdocs/Dino-996.github.io/node_modules/meow/node_modules/normalize-package-data/lib/safe_format.js1688323857457000000 0
@@ -8784,7 +8784,7 @@
 101/opt/lampp/htdocs/Dino-996.github.io/node_modules/globals/node_modules/type-fest/source/asyncify.d.ts1687743851265000000 0
 106/opt/lampp/htdocs/Dino-996.github.io/node_modules/stylelint/node_modules/css-tree/cjs/generator/create.cjs1686763095982000000 0
 75/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/core/lib/requests1688323678939264199 1
-64/opt/lampp/htdocs/Dino-996.github.io/dist/index.9d103dcb.css.map1688362188313943340 0
+64/opt/lampp/htdocs/Dino-996.github.io/dist/index.9d103dcb.css.map1688362818763722969 0
 98/opt/lampp/htdocs/Dino-996.github.io/node_modules/cosmiconfig/node_modules/js-yaml/lib/type/seq.js1687743850746000000 0
 68/opt/lampp/htdocs/Dino-996.github.io/node_modules/globalthis/auto.js1688323856104000000 0
 73/opt/lampp/htdocs/Dino-996.github.io/node_modules/postcss/lib/tokenize.js1685468172687999000 0
@@ -9202,7 +9202,7 @@
 98/opt/lampp/htdocs/Dino-996.github.io/node_modules/@babel/types/lib/validators/isNodesEquivalent.js1687743854811000000 0
 88/opt/lampp/htdocs/Dino-996.github.io/node_modules/caniuse-lite/data/features/jpeg2000.js1688323855496000000 0
 63/opt/lampp/htdocs/Dino-996.github.io/node_modules/ms/license.md1687907047289999000 0
-60/opt/lampp/htdocs/Dino-996.github.io/dist/cv.b8fde861.js.map1688362188341943598 0
+60/opt/lampp/htdocs/Dino-996.github.io/dist/cv.b8fde861.js.map1688362818799723680 0
 93/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2019/SymbolDescriptiveString.js1688323855938999000 0
 94/opt/lampp/htdocs/Dino-996.github.io/node_modules/yaml/dist/compose/util-contains-newline.d.ts1686763091512000000 0
 85/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2019/thisStringValue.js1688323855938999000 0
@@ -9238,7 +9238,7 @@
 71/opt/lampp/htdocs/Dino-996.github.io/node_modules/caniuse-lite/dist/lib1688323861944416883 1
 79/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/profiler/src/Trace.js1688323669355999000 0
 88/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2018/SameValueNonNumber.js1688323855938999000 0
-56/opt/lampp/htdocs/Dino-996.github.io/dist/cv.b8fde861.js1688362188333943524 0
+56/opt/lampp/htdocs/Dino-996.github.io/dist/cv.b8fde861.js1688362818791723521 0
 91/opt/lampp/htdocs/Dino-996.github.io/node_modules/caniuse-lite/data/features/input-event.js1688323855496000000 0
 66/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/20201688323861624414827 1
 61/opt/lampp/htdocs/Dino-996.github.io/node_modules/triple-beam1688304473161591000 1
@@ -9446,7 +9446,7 @@
 111/opt/lampp/htdocs/Dino-996.github.io/node_modules/stylelint/node_modules/css-tree/cjs/syntax/node/Condition.cjs1686763095982000000 0
 83/opt/lampp/htdocs/Dino-996.github.io/node_modules/fast-glob/out/providers/sync.d.ts1688323856736000000 0
 80/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/core/src/AssetGraph.js1688323664956000000 0
-59/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages/cv.html1688362188305943266 0
+59/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages/cv.html1688362818839724468 0
 112/opt/lampp/htdocs/Dino-996.github.io/node_modules/browserslist/node_modules/caniuse-lite/data/browserVersions.js1688063130749000000 0
 95/opt/lampp/htdocs/Dino-996.github.io/node_modules/resolve/test/resolver/incorrect_main/index.js1687743854107000000 0
 120/opt/lampp/htdocs/Dino-996.github.io/node_modules/table/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js1687906413233999000 0
@@ -9529,7 +9529,7 @@
 93/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2015/SymbolDescriptiveString.js1688323855938999000 0
 95/opt/lampp/htdocs/Dino-996.github.io/node_modules/widest-line/node_modules/ansi-regex/readme.md1688304472190000000 0
 66/opt/lampp/htdocs/Dino-996.github.io/node_modules/emittery/maps.js1687743854190999000 0
-66/opt/lampp/htdocs/Dino-996.github.io/dist/contatti.c7dfd02b.js.map1688362188341943598 0
+66/opt/lampp/htdocs/Dino-996.github.io/dist/contatti.c7dfd02b.js.map1688362818803723757 0
 82/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2021/HourFromTime.js1688323855938999000 0
 77/opt/lampp/htdocs/Dino-996.github.io/src/data/phpmailer/test/fakepopserver.sh1688319371926297000 0
 85/opt/lampp/htdocs/Dino-996.github.io/node_modules/pure-rand/lib/generator/XorShift.js1687743856776999000 0
@@ -9732,7 +9732,7 @@
 85/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2021/BigInt/subtract.js1688323855938999000 0
 82/opt/lampp/htdocs/Dino-996.github.io/node_modules/css-what/lib/commonjs/types.d.ts1687907048982000000 0
 84/opt/lampp/htdocs/Dino-996.github.io/node_modules/@bcoe/v8-coverage/src/lib/merge.ts1687743853483999000 0
-57/opt/lampp/htdocs/Dino-996.github.io/src/data/contact.php1688362605783747008 0
+57/opt/lampp/htdocs/Dino-996.github.io/src/data/contact.php1688362737114143691 0
 85/opt/lampp/htdocs/Dino-996.github.io/node_modules/@parcel/transformer-js/node_modules1688323863124424461 1
 82/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2019/ObjectCreate.js1688323855938999000 0
 95/opt/lampp/htdocs/Dino-996.github.io/src/data/phpmailer/test/PHPMailer/Utf8CharBoundaryTest.php1688319371926297000 0
@@ -11298,7 +11298,7 @@
 72/opt/lampp/htdocs/Dino-996.github.io/node_modules/console-clear/index.js1688323857035000000 0
 104/opt/lampp/htdocs/Dino-996.github.io/node_modules/@babel/highlight/node_modules/supports-color/readme.md1687743859002000000 0
 98/opt/lampp/htdocs/Dino-996.github.io/node_modules/@babel/types/lib/validators/react/isCompatTag.js1687743854811000000 0
-51/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages1688362188337943561 1
+51/opt/lampp/htdocs/Dino-996.github.io/dist/src/pages1688362818839724468 1
 70/opt/lampp/htdocs/Dino-996.github.io/node_modules/has-symbols/index.js1686763091101000000 0
 97/opt/lampp/htdocs/Dino-996.github.io/node_modules/string_decoder/node_modules/safe-buffer/LICENSE1687822733198999000 0
 81/opt/lampp/htdocs/Dino-996.github.io/node_modules/caniuse-lite/data/regions/CY.js1688323855496000000 0
@@ -12442,7 +12442,7 @@
 87/opt/lampp/htdocs/Dino-996.github.io/node_modules/table/dist/src/makeTableConfig.js.map1687906436414000000 0
 81/opt/lampp/htdocs/Dino-996.github.io/node_modules/string.prototype.padend/shim.js1688323855903000000 0
 126/opt/lampp/htdocs/Dino-996.github.io/node_modules/browserslist/node_modules/caniuse-lite/data/features/intersectionobserver.js1688063130749000000 0
-65/opt/lampp/htdocs/Dino-996.github.io/dist/chiSono.d07d529e.js.map1688362188341943598 0
+65/opt/lampp/htdocs/Dino-996.github.io/dist/chiSono.d07d529e.js.map1688362818799723680 0
 80/opt/lampp/htdocs/Dino-996.github.io/node_modules/nth-check/lib/esm/parse.js.map1687743851825999000 0
 61/opt/lampp/htdocs/Dino-996.github.io/node_modules/yargs/build1688323678771263164 1
 83/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2022/UnicodeEscape.js1688323855938999000 0
@@ -15683,7 +15683,7 @@
 80/opt/lampp/htdocs/Dino-996.github.io/node_modules/js-yaml/lib/js-yaml/scanner.js1688304470658999000 0
 93/opt/lampp/htdocs/Dino-996.github.io/node_modules/yaml/dist/compose/resolve-block-scalar.d.ts1686763091512000000 0
 86/opt/lampp/htdocs/Dino-996.github.io/node_modules/@babel/core/node_modules/.bin/semver1688323863028423843 0
-62/opt/lampp/htdocs/Dino-996.github.io/dist/contatti.c7dfd02b.js1688362188333943524 0
+62/opt/lampp/htdocs/Dino-996.github.io/dist/contatti.c7dfd02b.js1688362818791723521 0
 81/opt/lampp/htdocs/Dino-996.github.io/node_modules/js-yaml/lib/js-yaml/composer.js1688304470658999000 0
 79/opt/lampp/htdocs/Dino-996.github.io/node_modules/js-yaml/lib/js-yaml/parser.js1688304470658999000 0
 72/opt/lampp/htdocs/Dino-996.github.io/node_modules/js-yaml/lib/js-yaml.js1688304470658999000 0
@@ -17235,7 +17235,7 @@
 80/opt/lampp/htdocs/Dino-996.github.io/node_modules/uri-js/dist/esnext/util.js.map1687743851015000000 0
 87/opt/lampp/htdocs/Dino-996.github.io/node_modules/es-abstract/2015/DetachArrayBuffer.js1688323855938999000 0
 87/opt/lampp/htdocs/Dino-996.github.io/node_modules/uri-js/dist/esnext/regexps-iri.js.map1687743851015000000 0
-60/opt/lampp/htdocs/Dino-996.github.io/dist/index.9d103dcb.css1688362188289943119 0
+60/opt/lampp/htdocs/Dino-996.github.io/dist/index.9d103dcb.css1688362818739722496 0
 78/opt/lampp/htdocs/Dino-996.github.io/node_modules/string.prototype.padend/test1688323861868416395 1
 83/opt/lampp/htdocs/Dino-996.github.io/node_modules/uri-js/dist/esnext/schemes/urn.js1687743851015000000 0
 90/opt/lampp/htdocs/Dino-996.github.io/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts1687743851015000000 0
