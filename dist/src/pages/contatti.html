@@ -10,8 +10,9 @@
     <meta name="dc.language" content="ita" scheme="RFC1766">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.31362351.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/index.9d103dcb.css"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         <script src="https://www.google.com/recaptcha/enterprise.js?render=6Le9qO0mAAAAADrx8bWiR_xTJvDNh_UeUiRvAN_D"></script>
     <style>.rotate {
   animation: 8s linear infinite rotate;
@@ -64,15 +65,15 @@ ul {
         <h1>Contatti</h1>
 
         <div class="row">
-            <div class="col">
+            <div class="col" data-aos="fade-right">
                 <h2>Form di contatto</h2>
                 <p>Compila il <b>form</b> con la tua <b>domanda o richiesta</b>, ti risponder&ograve; prima possibile.
                 </p>
 
-                <form action="../data/contact.php" method="POST" class="needs-validation" novalidate="">
+                <form action="https://forms.un-static.com/forms/5378f6b6e41da5a02619da772f9f212ecdf390cf" method="POST" class="needs-validation" novalidate="">
 
                     <div class="form-floating mb-3">
-                        <input type="text" id="floatingInput" name="subject" placeholder="yourname" value="" class="form-control" required="">
+                        <input type="text" id="floatingInput" name="subject" placeholder="yourname" value="" class="form-control" autocomplete="name" required="">
                         <label for="floatingInput" class="form-label text-black">Nome</label>
                         <div class="invalid-feedback">
                             Inserisci il tuo nome
@@ -80,7 +81,7 @@ ul {
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="email" id="floatingEmail" name="email" placeholder="name@example.com" value="" class="form-control" required="">
+                        <input type="email" id="floatingEmail" name="email" placeholder="name@example.com" value="" class="form-control" autocomplete="email" required="">
                         <label for="floatingEmail" class="form-label text-black">E-Mail</label>
                         <div class="invalid-feedback">
                             Inserisci un'email valida
@@ -110,7 +111,7 @@ ul {
                 </form>
             </div>
 
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="fade-left">
                 <h2>Social</h2>
                 <p>Vuoi metterti in contatto, ma <b>odi le form</b>? Contattami sui social.</p>
                 <p></p>
@@ -141,7 +142,7 @@ ul {
                     <div class="d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="#d45146" fill="currentColor" class="bi bi-envelope-fill" viewbox="0 0 16 16">
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
-                        </svg><a href="mailto:davidesabia22@gmail.com" class="ms-1">davidesabia22@gmail.com</a>
+                        </svg><a href="mailto:davidesabia22@gmail.com" class="ms-1">Gmail</a>
                     </div>
                     <div class="d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="#2899d0" fill="currentColor" class="bi bi-telegram" viewbox="0 0 16 16">
@@ -155,7 +156,7 @@ ul {
         </div>
 
 
-        <script>function onClick(e) {
+        <script src="/index.63aff760.js" defer="">function onClick(e) {
     e.preventDefault();
     grecaptcha.enterprise.ready(async ()=>{
         const token = await grecaptcha.enterprise.execute("6Le9qO0mAAAAADrx8bWiR_xTJvDNh_UeUiRvAN_D", {
@@ -179,6 +180,6 @@ ul {
 
 </script>
 
-</div><script src="/contatti.c7dfd02b.js"></script></body>
+</div></body>
 
 </html>
