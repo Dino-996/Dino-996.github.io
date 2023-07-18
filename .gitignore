@@ -1,3 +1,4 @@
+.parcel-cache
 src/test
 node_modules
 src/js/formValidate.js
