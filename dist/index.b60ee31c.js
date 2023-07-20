@@ -1,0 +1,2 @@
+var o=o||[];o.csConfiguration={askConsentAtCookiePolicyUpdate:!0,countryDetection:!0,gdprAppliesGlobally:!1,logLevel:"info",logViaAlert:!0,perPurposeConsent:!0,siteId:3238819,whitelabel:!1,cookiePolicyId:11743670,lang:"it",cookiePolicyUrl:"https://nibirumail.com/cookies/policy/?url=dino-996.github.io",banner:{acceptButtonDisplay:!0,closeButtonRejects:!0,customizeButtonDisplay:!0,explicitWithdrawal:!0,listPurposes:!0,logo:"https://dino-996.github.io/src/assets/moon.png"}};
+//# sourceMappingURL=index.b60ee31c.js.map
