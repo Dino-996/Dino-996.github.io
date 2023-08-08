@@ -1,5 +1,5 @@
 body {
-    background: url('../assets/background.gif') no-repeat center center fixed;
+    background: url('../assets/background.gif') center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -160,4 +160,13 @@ body {
 
 .navbar-toggler.collapsed .toggler-icon {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 51%, rgba(0, 0, 0, 1) 100%);
+}
+
+#item-space li {
+    padding-top: 10px;
+}
+
+.img-icon {
+    width: 20px;
+    height: 20px;
 }

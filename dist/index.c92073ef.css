@@ -1,0 +1,163 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: url("background.0a289d88.gif") center / cover fixed;
+}
+
+.rotate {
+  animation: 8s linear infinite rotate;
+}
+
+.hello {
+  animation: 2s linear infinite hello;
+}
+
+@keyframes hello {
+  0% {
+    transform: rotate(0);
+  }
+
+  20% {
+    transform: rotate(0);
+  }
+
+  40% {
+    transform: rotate(0);
+  }
+
+  60% {
+    transform: rotate(0);
+  }
+
+  80% {
+    transform: rotate(60deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  background-color: #0000;
+  border: none;
+}
+
+@media (width <= 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (width >= 768px) {
+  .carousel-inner .carousel-item-end.active, .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active, .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end, .carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  transition: all .5s ease-in-out;
+  position: relative;
+}
+
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+  box-shadow: none;
+  border: 0;
+  outline: none;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  opacity: 1;
+  background: #fff;
+  border-radius: 1px;
+  width: 100%;
+  height: 3px;
+  transition: all .25s ease-in-out;
+  display: block;
+  position: absolute;
+  left: 0;
+  rotate: none;
+}
+
+.middle-bar {
+  margin-top: 0;
+}
+
+.navbar-toggler .top-bar {
+  margin-top: 0;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity= 0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -20px;
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity= 100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 20px;
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background: linear-gradient(90deg, #fff 51%, #000 100%);
+}
+
+#item-space li {
+  padding-top: 10px;
+}
+
+.img-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
