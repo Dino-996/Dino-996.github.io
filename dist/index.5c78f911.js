@@ -1,2 +1,0 @@
-"use strict";let e=document.querySelectorAll(".carousel .carousel-item");e.forEach(t=>{let l=t.nextElementSibling;for(var n=1;n<1;n++){l||(l=e[0]);let n=l.cloneNode(!0);t.appendChild(n.children[0]),l=l.nextElementSibling}}),(()=>{let e=new Date,t=e.getFullYear();document.querySelector("#year").innerText=t})(),(()=>{let e=new Date,t=e.getFullYear();document.querySelector("#anni").innerText=t-2021})();
-//# sourceMappingURL=index.5c78f911.js.map

@@ -1,0 +1,19 @@
+@import url("/src/ui/uikit-3.16.24/css/uikit.min.css");
+
+@media screen and (max-width: 993px) {
+  .desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mobile {
+    display: none !important;
+  }
+}
+
+.res-img {
+  height: 100px;
+}
+
+
