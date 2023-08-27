@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "My personal portfolio",
-  "main": "src/js/index.js",
   "source": "index.html",
   "scripts": {
     "dev": "parcel",
