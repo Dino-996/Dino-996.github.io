@@ -4,262 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Davide Sabia">
-    <meta name="description" content="My personal portfolio">
-    <meta name="copyright" content="Dino-996">
-    <meta name="generator" content="Visual Studio Code">
-    <meta name="robots" content="all">
-    <meta name="dc.language" content="ita" scheme="RFC1766">
-    <meta http-equiv="reply-to" content="davidesabia22@gmail.com">
-    <link rel="shortcut icon" href="src/assets/pre.ico" />
-    <link rel="stylesheet" href="src/css/index.css" />
-    <link rel="stylesheet" href="src/ui/uikit-3.16.24/css/uikit.min.css" />
-    <script src="src/ui/uikit-3.16.24/js/uikit.min.js"></script>
-    <script src="src/ui/uikit-3.16.24/js/uikit-icons.min.js"></script>
-    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 
-<body>
-    <nav class="uk-navbar-container" uk-sticky>
-        <div class="uk-container">
-            <div uk-navbar>
-                <div class="uk-flex mobile uk-animation-fade">
-                    <img src="https://avatars.githubusercontent.com/u/67854837?v=4" width="80" height="10"
-                        alt="animoji">
-                    <a class="uk-navbar-item uk-logo mobile" href="index.html">Davide Sabia</a>
-                </div>
-                <div class="uk-navbar-right mobile ">
-                    <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
-                    <div class="uk-navbar-dropdown uk-animation-fade">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li class="uk-active">
-                                <a href="index.html" class="uk-text-primary">
-                                    <span class="uk-margin-small-right" uk-icon="icon: home"></span>
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="src/pages/chisono.html">
-                                    <span class="uk-margin-small-right" uk-icon="icon: user"></span>
-                                    Chi sono
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://davidesabia.altervista.org/">
-                                    <span class="uk-margin-small-right" uk-icon="icon: pencil"></span>
-                                    Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a href="src/pages/progetti.html">
-                                    <span class="uk-margin-small-right" uk-icon="icon: code"></span>
-                                    Progetti
-                                </a>
-                            </li>
-                            <li>
-                                <a href="src/pages/contatti.html">
-                                    <span class="uk-margin-small-right" uk-icon="icon: info"></span>
-                                    Contatti
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<body class="bg">
+    <div style="display: flex; flex-direction: row; align-content: center; justify-content: space-evenly;">
+        <div class="card mt-5 p-5 bg-card" style="width: 350px;">
+            <div class="d-flex flex-row justify-content-center align-content-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-davide-sabia.appspot.com/o/assets%2Fio.png?alt=media&token=7f38868a-a0c6-449e-9116-5d135e01ab6a&_gl=1*ydt5nw*_ga*ODc4NzIxNDgzLjE2OTU1ODUwMjk.*_ga_CW55HF8NVT*MTY5NzM3OTQ2Ni4xNi4xLjE2OTczNzk1ODcuMTYuMC4w" alt="Bootstrap" style="width:50%;" class="rounded-circle">
             </div>
-        </div>
-    </nav>
-    <nav class="uk-navbar-container" uk-sticky>
-        <div class="uk-container">
-            <div uk-navbar>
-                <div class="uk-navbar-center desktop">
-                    <div class="uk-navbar-center-left">
-                        <ul class="uk-navbar-nav">
-                            <li class="uk-active">
-                                <a href="index.html" class="uk-text-primary">
-                                    <span class="uk-margin-small-right" uk-icon="icon: home"></span>
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="src/pages/chisono.html">
-                                    <span class="uk-margin-small-right" uk-icon="icon: user"></span>
-                                    Chi sono
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://davidesabia.altervista.org/">
-                                    <span class="uk-margin-small-right" uk-icon="icon: pencil"></span>
-                                    Blog
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div class="uk-flex">
-                            <img src="https://avatars.githubusercontent.com/u/67854837?v=4" width="80" height="10"
-                                alt="animoji">
-                            <a class="uk-navbar-item uk-logo" href="index.html">Davide Sabia</a>
-                        </div>
-                    </div>
-                    <div class="uk-navbar-center-right">
-                        <ul class="uk-navbar-nav ">
-                            <li>
-                                <a href="src/pages/progetti.html">
-                                    <span class="uk-margin-small-right" uk-icon="icon: code"></span>
-                                    Progetti recenti
-                                </a>
-                            </li>
-                            <li>
-                                <a href="src/pages/contatti.html">
-                                    <span class="uk-margin-small-right" uk-icon="icon: info"></span>
-                                    Contatti
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="mt-3">
+                <p class="h6 text-center" style="color: whitesmoke;">Davide Sabia</p>
+                <p class="text-center" style="color: whitesmoke;">Computer Science and Technology Student</p>
             </div>
-            <hr class="desktop">
-        </div>
-    </nav>
-    <div class="uk-container uk-container-large uk-margin-top uk-animation-fade">
-
-        <div class="uk-card uk-card-small uk-card-body">
-            <div>
-                <h1 class="uk-h1" uk-scrollspy="cls: uk-animation-fade; repeat: true">Ehilà 👋🏻</h1>
+            <div class="d-flex flex-row justify-content-center align-content-center mt-2">
+                <a target="_blank" href="https://github.com/Dino-996"><i class="bi bi-github pe-3" style="color: whitesmoke;"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/davidesabia/"><i class="bi bi-linkedin pe-3"></i></a>
             </div>
-            <div class="uk-flex-around uk-align-center">
-                <div uk-scrollspy="cls: uk-animation-fade; repeat: true">
-                    <p class="uk-h2">Benvenuto sul mio <span class="uk-text-primary">sito web</span>. Sviluppo siti web
-                        da
-                        <span id="devYear"></span> anni, utilizzando html, css, javascript e altri strumenti magici!
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div uk-grid class="uk-animation-fade">
-            <div>
-                <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-fade; repeat: true">
-                    <div class="uk-card-media-top">
-                        <img src="https://davidesabia.altervista.org/wp-content/uploads/2023/08/Programmazione-web.png"
-                            width="1800" height="1200" alt="">
-                    </div>
-                    <div class="uk-card-body">
-                        <h2 class="uk-card-title">La passione per la programmazione ci accomuna? </h2>
-                        <p>Se vuoi approfondire ulteriormente e ottenere informazioni dettagliate, ti invito a fare un
-                            salto nel mio
-                            blog. Lì troverai articoli, tutorial e riflessioni su argomenti affascinanti nel mondo dello
-                            sviluppo
-                            web, dell'informatica e molto altro. Non vedo l'ora di condividere con te ancora più
-                            contenuti
-                            interessanti. Ti aspetto nel mio blog!
-                        </p>
-                        <a class="uk-button uk-button-primary" href="https://davidesabia.altervista.org/">Visita il
-                            blog</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="uk-child-width-1-3@m" uk-grid
-                uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
-
-                <div class="uk-card uk-card-default uk-card-body">
-                    <img class="uk-align-left@m" src="/src/assets/hero.png" width="200" height="300" alt="PC">
-                    <p>Studio Informatica presso l'Università degli Studi della Basilicata qui a
-                        Potenza, dove coltivo la mia passione.
-                        Mi piace creare <strong>esperienze online
-                            accattivanti</strong> che
-                        facciano brillare gli occhi.
-                        Puoi consultare il mio
-                        <strong>CV</strong> per
-                        sapere di piu sulle mie esperienze e competenze.
-                    </p>
-                    <a role="link" type="link"
-                        href="https://drive.google.com/u/0/uc?id=1t6s03r4Mgafg5mK-a8Jc3G5Wdx52IldD&export=download"
-                        download="CV_Davide_Sabia.pdf">
-                        <button class="uk-button uk-button-primary">Scarica il CV</button>
-                    </a>
-                </div>
-
-                <div class="uk-card uk-card-default uk-card-body">
-                    <img class="uk-align-left@m" src="/src/assets/how-are-you.png" width="200" height="300" alt="PC">
-                    <p>Sono aperto al dialogo e apprezzo il confronto. Credo nell'importanza di ascoltare chi ne sa più
-                        di
-                        me. "Fare per
-                        imparare" è il mio motto, poiché credo che l'esperienza sia il miglior insegnante.
-                        Mi metto in gioco, sperimento nuove idee e affronto le sfide con fiducia. Ogni progetto è
-                        un'<strong>opportunità</strong> per
-                        crescere e migliorare. Puoi scoprire di più su di me visitando la sezione <a href="#">Chi
-                            sono</a>.
-                    </p>
-                    <a href="src/pages/chisono.html" type="link">
-                        <button class="uk-button uk-button-primary">Scopri di pi&ugrave;</button>
-                    </a>
-                </div>
-
-                <div class="uk-card uk-card-default uk-card-body">
-                    <img class="uk-align-left@m" src="/src/assets/project.png" width="200" height="300" alt="PC">
-                    <p>Mi mantengo costantemente aggiornato sulle ultime tendenze e tecnologie, garantendo applicativi
-                        <strong>moderni, reattivi e che si adattino perfettamente a qualsiasi dispositivo</strong>, che
-                        sia
-                        un enorme schermo o
-                        un piccolo telefono. Dai un occhiata a qualche <a href="#">progetto</a> su cui ho lavorato in
-                        passato.
-                        Troverai esempi di lavori che mi hanno riempito di orgoglio e spero che ti ispirino per il tuo
-                        progetto.
-                    </p>
-                    <a type="link" href="src/pages/progetti.html">
-                        <button class="uk-button uk-button-primary">Progetti recenti</button>
-                    </a>
-                </div>
-            </div>
-
-            <div class="uk-position-relative uk-visible-toggle uk-light uk-animation-fade uk-margin-top" tabindex="-1"
-                uk-slider="autoplay: true">
-
-                <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-                    <li>
-                        <img src="src/assets/carousel/html-5.png" width="200" height="300" alt="">
-                    </li>
-                    <li>
-                        <img src="src/assets/carousel/css-3.png" width="200" height="300" alt="">
-                    </li>
-                    <li>
-                        <img src="src/assets/carousel/java.png" width="200" height="300" alt="">
-                    </li>
-                    <li>
-                        <img src="src/assets/carousel/js.png" width="200" height="300" alt="">
-                    </li>
-                    <li>
-                        <img src="src/assets/carousel/node-js.png" width="200" height="300" alt="">
-                    </li>
-                    <li>
-                        <img src="src/assets/carousel/typescript.png" width="200" height="300" alt="">
-                    </li>
-                    <li>
-                        <img src="src/assets/carousel/npm.png" width="200" height="300" alt="">
-                    </li>
-                    <li>
-                        <img src="src/assets/carousel/visual-studio.png" width="200" height="300" alt="">
-                    </li>
-                </ul>
-
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-                    uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-                    uk-slider-item="next"></a>
-
+            <div class="mt-3">
+                <button type="button" class="btn btn-primary rounded-5" style="width: 100%;"><i class="bi bi-link-45deg me-1"></i>Web</button>
+                <button type="button" role="link" target="_blank" href="mailto:davide0@hotmail.com" class="btn btn-danger mt-2 rounded-5" style="width: 100%;"><i class="bi bi-envelope-at me-1"></i>Email</button>
             </div>
         </div>
     </div>
-    <footer class="uk-margin-top uk-animation-fade">
-        <hr>
-        <div class="uk-flex uk-flex-center uk-flex-center\@m">
-            <span><span id="copy"></span> - Built with ❤ by <a href="#">Dino-996</a></span>
-        </div>
-    </footer>
-    <script defer type="module" src="/src/js/index.js"></script>
 </body>
 
 </html>

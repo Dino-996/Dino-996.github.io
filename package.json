@@ -1,16 +1,22 @@
 {
-  "name": "portfolio",
+  "name": "dino-996.github.io",
   "version": "1.0.0",
-  "description": "My personal portfolio",
-  "source": "index.html",
+  "description": "My personal landing page of blog and portfolio",
+  "main": "index.js",
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dino-996/Dino-996.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
   "author": "Davide Sabia",
-  "license": "ISC",
-  "dependencies": {
-    "parcel": "^2.9.3"
-  }
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dino-996/Dino-996.github.io/issues"
+  },
+  "homepage": "https://github.com/Dino-996/Dino-996.github.io#readme"
 }
