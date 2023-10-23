@@ -1,11 +1,30 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+
 .bg {
     background-image: url('https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711&dl=1');
     background-repeat: no-repeat;
     background-position: center;
+    image-rendering: optimizeQuality;
 }
 
 .bg-card {
     background-color: transparent;
     border: none;
 }
-html, body {margin: 0; height: 100%; overflow: hidden}
+
+hr {
+    border: none;
+    height: 4px;
+    background-color: whitesmoke;
+}
+
+#message {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
