@@ -27,7 +27,7 @@ function openURL(url) {
     const hr = document.createElement('hr');
     message.style.color = 'whitesmoke';
     message.style.marginTop = '1em';
-    a.href = `${url}`;
+    a.href = `https:/${url}`;
     a.target = '_blank';
     a.click();
     const visitMessage = document.createTextNode(THANK_VISIT);
